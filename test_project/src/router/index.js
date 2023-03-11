@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Simulator from '../views/SimulatorView.vue'
+import AboutMe from '../views/AboutMe.vue'
 
 const routes = [
   {
@@ -12,7 +13,12 @@ const routes = [
     path: '/sim',
     name: 'Simulator',
     component: Simulator
-  }
+  },
+  {
+    path: '/aboutme',
+    name: 'AboutMe',
+    component: AboutMe
+  },
 ]
 
 const router = createRouter({

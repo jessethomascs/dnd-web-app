@@ -4,7 +4,12 @@
       Online DND Simulation v.0.1
     </div>
     <div class="ribbonButtons">
-      <button id="ribbonAboutMe">About Me</button>
+      <button 
+        @click="$router.push({ name: 'AboutMe' })"
+        id="ribbonAboutMe"
+      
+      
+      >About Me</button>
 
       <button 
         @click="$router.push({ name: 'Simulator' })" 
