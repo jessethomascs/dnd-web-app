@@ -1,22 +1,22 @@
-import { createWebHistory, createRouter } from "vue-router"
-import Home from "@/views/HomeView.vue"
-import Simulator from "@/views/SimulatorView.vue"
+import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from '../views/HomeView.vue'
+import Simulator from '../views/SimulatorView.vue'
 
 const routes = [
   {
-    path: "/",
-    name: "HomeView",
-    component: Home,
+    path: '/',
+    name: 'home',
+    component: HomeView
   },
   {
-    path: "/sim",
-    name: "Simulator",
-    component: Simulator,
-  },
+    path: '/sim',
+    name: 'Simulator',
+    component: Simulator
+  }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 })
 
