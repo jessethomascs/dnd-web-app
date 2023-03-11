@@ -1,0 +1,104 @@
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+}
+
+.ribbon {
+    text-align: center;
+    font-size: 25px;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+
+    border-style: solid;
+    border-color: limegreen;
+    border-width: 0px 0px 2px 0px;
+    border-radius: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ribbonButtons {
+    text-align: center;
+    margin-top: 7px;
+    margin: 0 auto;
+    width: 35%;
+    height: 60px;
+    padding-top: 10px;
+}
+
+#ribbonHome {
+    /* Boiler plate button code */
+    width: 140px;
+    height: 60px;
+    border-radius: 12%;
+    border: small;
+    font-size: 28px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    border-color: red;
+    background-color: white;
+    color: red;
+
+    /* Code specific to this button */
+    float: left;
+}
+
+#ribbonHome:hover, #ribbonHome:active {
+    background-color: red;
+    color: #ebebe6;
+    cursor: pointer;
+}
+
+#ribbonAboutMe {
+    /* Boiler plate button code */
+    width: 140px;
+    height: 60px;
+    border-radius: 12%;
+    border: small;
+    font-size: 28px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    border-color: red;
+    background-color: white;
+    color: red;
+
+    /* Code specific to this button */
+    float: right;
+}
+
+#ribbonAboutMe:hover, #ribbonAboutMe:active {
+    background-color: red;
+    color: #ebebe6;
+    cursor: pointer;
+}
+
+#ribbonSimulator {
+    /* Boiler plate button code */
+    width: 250px;
+    height: 60px;
+    border-radius: 12%;
+    border: small;
+    font-size: 28px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    border-color: red;
+    background-color: white;
+    color: red;
+
+    /* Code specific to this button */
+    float: inherit;
+}
+
+#ribbonSimulator:hover, #ribbonSimulator:active {
+    background-color: red;
+    color: #ebebe6;
+    cursor: pointer;
+}
